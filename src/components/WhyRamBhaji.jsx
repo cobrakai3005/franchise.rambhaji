@@ -8,13 +8,13 @@ const pillars = [
   {
     icon: Warehouse,
     title: "Local Sourcing Power",
-    desc: "We partner directly with farmers around Bhopal, eliminating middlemen for better margins.",
+    // desc: "We partner directly with farmers around Bhopal, eliminating middlemen for better margins.",
     img: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&q=80",
-    points: [
-      "Direct farmer partnerships",
-      "Better margins for you",
-      "Fresh daily supply",
-    ],
+    // points: [
+    //   "Direct farmer partnerships",
+    //   "Better margins for you",
+    //   "Fresh daily supply",
+    // ],
   },
   {
     icon: Recycle,
@@ -148,14 +148,14 @@ export default function WhyRamBhaji() {
                 >
                   {p.title}
                 </h3>
-                <p
+                {/* <p
                   className="mb-4 text-sm leading-relaxed"
                   style={{ color: "var(--text-secondary)" }}
                 >
                   {p.desc}
-                </p>
+                </p> */}
                 <ul className="space-y-2 text-xs">
-                  {p.points.map((pt) => (
+                  {/* {p.points.map((pt) => (
                     <li key={pt} className="flex items-center gap-2">
                       <span
                         className="flex h-4 w-4 items-center justify-center rounded-full"
@@ -167,7 +167,7 @@ export default function WhyRamBhaji() {
                         {pt}
                       </span>
                     </li>
-                  ))}
+                  ))} */}
                 </ul>
               </div>
             </div>
