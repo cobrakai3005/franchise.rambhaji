@@ -79,7 +79,7 @@ export default function BusinessModel() {
               <div className="mb-3 text-3xl font-black" style={{ color: sch.title }}>{c.value}</div>
 
               {/* Description */}
-              <p className="mb-5 text-sm leading-relaxed" style={{ color: "var(--text-secondary)" }}>{c.desc}</p>
+              {/* <p className="mb-5 text-sm leading-relaxed" style={{ color: "var(--text-secondary)" }}>{c.desc}</p> */}
 
               {/* Feature list */}
               <ul className="mb-6 space-y-2.5 text-sm">
