@@ -48,7 +48,7 @@ const galleryImages = [
       "Clear investment requirements with transparent onboarding and operational support.",
   },
   {
-    src: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    src: "https://images.unsplash.com/photo-1565373679107-344d38dbf734?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UHJvZml0cyUyMGluZGlhfGVufDB8fDB8fHww",
     alt: "Profit chart",
     title: "Strong Profit Margin",
     subtitle: "20–25% on every delivery",
