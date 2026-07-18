@@ -17,39 +17,17 @@
   --hero-heading: #4c195f;
 }
 
-.dark {
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8fafc;
-  --bg-card: #ffffff;
-  --text-primary: #0f172a;
-  --text-secondary: #475569;
-  --border-color: #e2e8f0;
-  --navbar-bg: rgba(255, 255, 255, 0.8);
-  --hero-heading: #4c195f;
-}
-
 body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
-  transition:
-    background-color 0.3s,
-    color 0.3s;
 }
 
 /* SheRise section backgrounds — pink gradient alternates with white */
 .section-sherise-pink {
-  /* background: linear-gradient(135deg, #fff 0%, #fdf2f8 40%, #faf5ff 100%); */
-  background: linear-gradient(135deg, #ffffff 0%, #f3ddff 40%, #e9c8ff 100%);
+  background: linear-gradient(135deg, #fff 0%, #fdf2f8 40%, #faf5ff 100%);
 }
 .section-sherise-white {
   background: #ffffff;
-}
-
-.dark .section-sherise-pink {
-  background: #0b0f1e;
-}
-.dark .section-sherise-white {
-  background: #0b0f1e;
 }
 
 .no-scrollbar::-webkit-scrollbar {

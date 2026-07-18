@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 
 import { Menu, X, Sprout } from "lucide-react";
 import { useScrollSpy } from "../hooks/useScrollSpy";
-import ThemeToggle from "./ThemeToggle";
 
 const links = [
   { id: "why", label: "Why Us" },
@@ -113,8 +112,6 @@ export default function Navbar({ onNavigate, page = "franchise" }) {
             {isAbout ? "Franchise" : "About"}
           </button>
 
-          {/* <ThemeToggle /> */}
-
           {!isAbout && (
             <button
               onClick={() => scrollTo("apply")}
@@ -129,7 +126,6 @@ export default function Navbar({ onNavigate, page = "franchise" }) {
         </div>
 
         <div className="flex items-center gap-2 md:hidden">
-          {/* <ThemeToggle /> */}
           <button
             onClick={() => setOpen(!open)}
             className="rounded-lg p-2"
